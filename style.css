@@ -1,0 +1,431 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 1900px;
+    background-color: rgb(36, 36, 36);
+}
+nav{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 400px;
+    background-color: aliceblue;
+}
+nav a{
+    padding-inline: 30px;
+    text-decoration: none;
+    color: black;
+}
+.vision{
+    height: 680px;
+    background-image: url(./img/young-successful-businessman-correcting-tie.jpg);
+    padding-left: 385px;
+    background-size: cover;
+}
+#vision h1{
+    color: orange;
+    font-size: 4.7em;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#vision p{
+    width: 490px;
+    font-size: 1.1em;
+    color: aliceblue;
+    letter-spacing:1px;
+    line-height: 30px;
+}
+#vision h4{
+    padding-top: 20px;
+    color: aliceblue;
+    font-size: 1.1em;
+}
+#vision button{
+    margin-top: 40px;
+    background-color: orange;
+    color: aliceblue;
+    padding-inline: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: larger;
+    font-weight: 900;
+}
+.threebox{
+    padding-inline: 385px;
+    background-color: rgb(26, 26, 26);
+    color: aliceblue;
+    padding-top: 60px;
+}
+#title{
+    margin-bottom: 40px;
+}
+#title h1{
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+#title p{
+    margin-bottom: 20px;
+    width: 600px;
+    font-size: 1.1em;
+}
+.box{
+    display: flex;
+    padding-bottom: 60px;
+}
+.box ul{
+    padding-left: 40px; 
+}
+.box li{
+    padding-bottom: 20px;
+}
+.box h3{
+    padding-bottom: 30px;
+    padding-left: 20px;
+    font-weight: 900;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+#cir1{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+#cir1 img{
+    padding-inline: 30px;
+    padding-top: 25px;
+}
+#box{
+    width: 365px;
+    height: 460px;
+    background-size: cover;
+    margin-right: 20px;
+}
+#cir2{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+#cir2 img{
+    padding-inline: 31px;
+    padding-top: 30px;
+}
+#cir3{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+#cir3 img{
+    padding-inline: 30px;
+    padding-top: 25px;
+}
+.advise{
+    display: flex;
+    height: 250px;
+    background-color: orange;
+    align-items: center;
+    padding-left: 400px;
+}
+.advise h1{
+    width: 650px;
+    font-size:2.5em;
+    line-height: 40px;
+    color: aliceblue;
+}
+.advise div{
+    align-content: center;
+    height: 70px;
+    width: 300px;
+    background-color: black;
+    margin-left: 160px;
+}
+.advise a{
+    color: aliceblue;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding-left: 50px;
+    font-weight: 600;
+}
+.box6and8{
+    padding-left: 375px;
+    background-color: rgb(36, 36, 36);
+    color: aliceblue;
+    padding-bottom: 60px;
+}
+#threebox{
+    display: flex;
+    padding-left: 20px;
+}
+#boxrow{
+    height: 300px;
+    width: 300px;
+    margin-top: 100px;
+    margin-right: 95px;
+    margin-bottom: 30px;
+}
+#boxrow div{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-bottom: 30px;
+}
+#boxrow img{
+    height: 70px;
+    padding-top: 22px;
+    padding-inline: 22.5px;
+}
+#boxrow h2{
+    margin-bottom: 30px;
+}
+#boxrow p{
+    line-height: 25px;
+    padding-right: 10px;
+    font-size: 1.1em;
+}
+#fourbox{
+    display: flex;
+}
+#fourbox div{
+    height: 240px;
+    width: 270px;
+    background-size: cover;
+    color: aliceblue;
+    background-color: rgb(36, 36, 36);
+    margin-right: 20px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    align-content: center;
+}
+#fourbox h2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#fourbox p{
+    margin-left: 20px;
+    width: 180px;
+}
+.intense{
+    background-image: url(./img/silhouette-business-people-discussion-meeting-cityscape-team-concept.jpg);
+    background-size: cover;
+    color: aliceblue;
+}
+#intense1{
+    margin-left: 375px;
+}
+#intense1 h1{
+    padding-top: 70px;
+    font-size: 2.8em;
+    padding-bottom: 40px;
+}
+#intense1 p{
+    width: 1130px;
+    font-size: 1.15em;
+}
+#intense2{
+    margin-left: 375px;
+    margin-top: 100px;
+}
+#intense2 h1{
+    padding-top: 70px;
+    font-size: 2.8em;
+    padding-bottom: 40px;
+    width: 700px;
+}
+#intense2 p{
+    width: 1130px;
+    font-size: 1.15em;
+}
+#intense2 h3{
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+.emploe{
+    padding-left: 375px;
+    color: aliceblue;
+    padding-bottom: 60px;
+}
+#emploe{
+    display: flex;
+}
+#e1{
+    margin-right: 50px;
+}
+#e2{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+}
+#emploe img{
+margin-right: 20px;
+margin-top: 30px;
+margin-bottom: 20px;
+}  
+#emploe h3{
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.learn{
+    background-color: orange;
+    padding-left: 405px;
+    display: flex;
+    padding-top:40px;
+    color: aliceblue;
+    padding-bottom: 60px;
+}
+#learn{
+    width: 540px;
+    margin-right: 65px;
+    margin-top: 60px;
+}
+#learn p{
+    margin-top: 30px;
+    font-size: 1.2em;
+    line-height: 40px;
+}
+#learn button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-inline: 40px;
+    font-size: 1.2em;
+    color: aliceblue;
+    background-color: black;
+    font-weight: 900;
+    margin-top: 40px;
+    border: none;
+}
+#learn button:hover{
+    color: black;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+#twobox div{
+    background-color: aliceblue;
+    color: black;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+    width: 475px;
+    height: 240px;
+}
+#twobox img{
+    width: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#twobox p{
+    font-size: 1.1em;
+    width: 430px;
+    line-height: 25px;
+}
+#twobox h3{
+    font-size: 1.4em;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.future{
+    padding-left: 375px;
+    color: aliceblue;
+    padding-bottom: 80px;
+}
+.future h1{
+    font-size: 2.7em;
+    margin-bottom: 20px;
+}
+.future p{
+    margin-bottom: 60px;
+}
+#threecir{
+    display: flex;
+}
+#threecir h1{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 5em;
+    text-align: center;
+    align-content: center;
+    margin-right: 150px;
+    margin-left: 30px;
+}
+#threecir h3{
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.contact{
+    padding-left: 400px;
+    background-image: url(./img/jhhhhhh.jpg);
+    background-size: cover;
+    padding-top: 60px;
+    color: aliceblue;
+    display: flex;
+    padding-bottom: 100px;
+}
+#contact{
+    width: 590px;
+}
+#contact h1{
+    font-size: 2.8em;
+    margin-bottom: 40px;
+}
+#contact div{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#contact img{
+    width: 30px;
+}
+#en{
+    display: flex;
+    margin-bottom: 40px;
+}
+#en input{
+    padding-inline: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    margin-right: 30px;
+}
+#address{
+    margin-bottom: 40px;
+}
+#address input{
+    width: 480px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#message{
+    margin-bottom: 40px;
+}
+#message input{
+    height: 100px;
+    width: 480px;
+    text-align: start;
+}
+#inputinfo button{
+    background-color: orange;
+    padding-inline: 210px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    color: aliceblue;
+    font-size: 1.1em;
+}
